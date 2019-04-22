@@ -15,12 +15,14 @@ We have tested several R packages and have choosen the Data Quality diagnosis (3
 
 #Results:
 The total number of patients in eICU database was 200,859. Our R function showed these outputs for each table:
- Number of cases: Total number of records in each table.
- Missing Values (%): Percentage of values that have missing values.
- Irregular Values (%): Percentage of global outliers for the whole table .
- Data Case ratio: Relationship between the total numbers of records stored for each case.
- Overall Cases (%): The number of cases on each table related to total number of cases in the whole database.
- Outliers mean : Arithmetic Average of outliers.
+
++ Number of cases: Total number of records in each table.
++ Missing Values (%): Percentage of values that have missing values.
++ Irregular Values (%): Percentage of global outliers for the whole table .
++ Data Case ratio: Relationship between the total numbers of records stored for each case.
++ Overall Cases (%): The number of cases on each table related to total number of cases in the whole database.
++ Outliers mean : Arithmetic Average of outliers.
+
 There is an additional table showing an outlier ratio, that is the percentage of outliers for each variable contained in each table in the eICU database.
 
 #Conclusions:
